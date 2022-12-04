@@ -1,0 +1,20 @@
+.odd-numbers {
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    font-size: 18px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#title-1 {
+    color: blue;
+    font-size: 36px;
+}
+
+#title-2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
