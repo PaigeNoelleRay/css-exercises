@@ -1,0 +1,43 @@
+.hero {
+    background-color: #444;
+    background-image: url(//unsplash.it/1000/600);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+    padding: 1rem;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  span {
+    font-weight: 300;
+    color: green; 
+    }
+  
+  .sales-points {
+    padding: 12vh 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  @media (min-width: 40rem) {
+    .sales-points {
+      flex-direction: row;
+    }
+  }
+  
+  .sales-point {
+    flex-basis: 30%;
+    
+  }
+  
+  .cta {
+    background-color: black;
+    background-size: cover;
+    padding: 10vh 0;
+    color: white;
