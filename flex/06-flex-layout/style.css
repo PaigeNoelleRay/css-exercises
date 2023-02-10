@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* { box-sizing: border-box; 
+  margin-top: 0; 
+  margin-left: 0;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -44,13 +49,36 @@ a {
 
 .right-links {
   display: flex;
-  margin-left: 8px;
+  justify-content: flex-end;
+  algin-items: center;
+  gap: 1rem;
+  padding-left: 0px;
+  margin: 16px;
 }
 
 .left-links {
   display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin: 16px;
 }
 .footer {
  display: flex;
+ background-color: #eee;
  justify-content: space-between;
+ align-items: center;
+ padding: 0px 16px 0px 16px;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+  }
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 }
