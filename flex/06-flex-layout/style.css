@@ -50,7 +50,7 @@ a {
 .right-links {
   display: flex;
   justify-content: flex-end;
-  algin-items: center;
+  align-items: center;
   gap: 1rem;
   padding-left: 0px;
   margin: 16px;
