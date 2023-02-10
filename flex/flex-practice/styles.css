@@ -53,7 +53,7 @@ p {
 
 .hero {
   background-color: rgb(94, 100, 114);
-  background-image: url(//unsplash.it/1000/600);
+  background-image: url(/users/babza/repos/odin-projects/css-exercises/flex/flex-practice/Images/256-1000x600.jpg);
   background-blend-mode: multiply;
   background-size: cover;
   height: 100vh;
@@ -85,7 +85,7 @@ p {
 }
 
 .cta {
-  background-image: url(//unsplash.it/600/400);
+  background-image: url(/users/babza/repos/odin-projects/css-exercises/flex/flex-practice/Images/cta-image.jpeg);
   background-size: cover;
   padding: 10vh 0;
   color: white;
