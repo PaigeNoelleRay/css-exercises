@@ -1,28 +1,23 @@
-body {
-    margin: 0;
-}
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,600');
 
-// variables
-$white: #FFF;
-$green: #0F9;
-$black: #444;
-
 // Styles
-* { box-sizing: border-box; margin-top: 0; }
+* { box-sizing: border-box; 
+    margin-top: 0; 
+}
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: $black;
+  color: black;
   font-size: 1.1rem;
+  margin: 0;
 }
 
 h1 {
   font-size: 5rem;
-  color: $green;
+  color: rgb(92, 164, 169);
   text-transform: uppercase;
   letter-spacing: 15px;
-  outline: 3px solid $white;
+  outline: 3px solid white;
   outline-offset: .25em;
   display: inline-block;
   margin: 0.25em 0 0.5em;
@@ -39,31 +34,31 @@ h2 {
 
 p {
   span {
-    color: $green;
+    color: rgb(92, 164, 169);
   }
 }
 
 .btn {
   display: inline-block;
   padding: .7em 1.7em;
-  background: $green;
-  color: $black;
+  background: color: rgb(92, 164, 169);
+  color: black;
   font-weight: 600;
   text-decoration: none;
   
   &:hover {
-    background: darken($green, 10%);
+    background: rgb(77, 142, 147);
   }
 }
 
 .hero {
-  background-color: #444;
+  background-color: rgb(94, 100, 114);
   background-image: url(//unsplash.it/1000/600);
   background-blend-mode: multiply;
   background-size: cover;
   height: 100vh;
   padding: 1em;
-  color: $white;
+  color: white;
   
   display: flex;
   flex-direction: column;
@@ -75,7 +70,7 @@ p {
   padding: 12vh 0;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
 }
 
@@ -93,7 +88,7 @@ p {
   background-image: url(//unsplash.it/600/400);
   background-size: cover;
   padding: 10vh 0;
-  color: $white;
+  color: white;
   display: flex;
   justify-content: flex-end;
 }
